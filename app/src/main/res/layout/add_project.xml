@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:id="@+id/layout">
+
+    <TextView android:id="@+id/title_project"
+        android:text="@string/title_project"
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:text="@string/name_category" />
+
+    <EditText
+        android:id="@+id/project_name"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:text="Manager" />
+
+    <Spinner
+        android:id="@+id/spinnerProject"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+
+
+
+    <Button android:id="@+id/button_project_cancel"
+        android:text="@string/button_cancel"
+        android:layout_marginTop="@dimen/task_top_margin"
+        android:padding="@dimen/task_padding"/>
+    <Button android:id="@+id/button_project_add"
+        android:text="@string/button_add"
+        android:layout_marginTop="@dimen/task_top_margin"
+        android:padding="@dimen/task_padding"/>
+</GridLayout>

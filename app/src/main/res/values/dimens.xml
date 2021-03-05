@@ -1,0 +1,10 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="task_top_margin">10dp</dimen>
+    <dimen name="task_start_margin">10dp</dimen>
+    <dimen name="task_end_margin">16dp</dimen>
+    <dimen name="task_bottom_margin">16dp</dimen>
+    <dimen name="task_padding">16dp</dimen>
+    <dimen name="taskendmarg">95dp</dimen>
+    <dimen name="progress">5dp</dimen>
+</resources>

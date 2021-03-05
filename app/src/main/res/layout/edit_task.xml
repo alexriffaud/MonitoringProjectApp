@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:columnCount="2"
+    android:id="@+id/layout"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp">
+
+    <TextView android:text="Edit task"
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:text="Label" />
+
+    <EditText
+        android:id="@+id/task_label"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:id="@+id/txtsb"
+        android:layout_gravity="center"
+        android:text="Description"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <EditText
+        android:id="@+id/task_description"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Identifier"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <EditText
+        android:id="@+id/task_identifier"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="User"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <Spinner
+        android:id="@+id/spinnerUser"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Theoretical Start"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <EditText
+        android:id="@+id/task_theoretical_date"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Real Start"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <EditText
+        android:id="@+id/task_real_date"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Load"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <EditText
+        android:id="@+id/task_load"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin"
+        android:inputType="number"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Previous task"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <Spinner
+        android:id="@+id/spinnerTask"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Milestone"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <Spinner
+        android:id="@+id/spinnerMilestone"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+
+    <Button
+        android:id="@+id/button_task_cancel"
+        android:text="@string/button_cancel"
+        android:layout_marginStart="@dimen/task_start_margin"/>
+    <Button
+        android:id="@+id/button_task_edit"
+        android:text="Edit"/>
+
+
+</GridLayout>
