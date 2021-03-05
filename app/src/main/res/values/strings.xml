@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MonitoringProject</string>
+    <string name="title_activity">MonitoringPorjectActivity</string>
+    <string name="deleteMessage">Delete</string>
+    <string name="title_activity_selector">SelectorActivity</string>
+    <string name="com">.com</string>
+    <string name="cancel">Quit</string>
+    <string name="name_category">Name:</string>
+    <string name="username">Username:</string>
+    <string name="password">Password:</string>
+    <string name="title_project">Add Project</string>
+    <string name="title_user">Add user</string>
+    <string name="add">Add advert</string>
+    <string name="name">LeBonAngle</string>
+    <string name="add_title">Add advert</string>
+    <string name="name_edit_text">Title: </string>
+    <string name="button_add">Add</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="state">State: </string>
+    <string name="price">Price: </string>
+    <string name="category">Category: </string>
+    <string name="email">Email: </string>
+    <string name="content">Content: </string>
+    <string name="author">Author:</string>
+    <string name="message_login">Invalid password or username</string>
+
+    <string name="menu_login">Login</string>
+    <string name="menu_admin_user">Utilisateurs</string>
+    <string name="menu_admin_advert">Gestion des annonces</string>
+    <string name="menu_advert">Annonces</string>
+    <string name="menu_admin_category">Catégories</string>
+
+    <string-array name="repeate_array">
+        <item>Ne pas répéter</item>
+        <item>Quotidien</item>
+        <item>Hebdomadaire</item>
+        <item>Mensuel</item>
+    </string-array>
+</resources>

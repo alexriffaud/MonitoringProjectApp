@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:id="@+id/layout">
+
+    <TextView android:id="@+id/title_requirement"
+        android:text="Add requirement"
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:text="Identifier" />
+
+    <EditText
+        android:id="@+id/requirement_identifier"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:text="Description" />
+
+    <EditText
+        android:id="@+id/requirement_description"
+        android:layout_width="249dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="@dimen/task_top_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:text="Fonctional" />
+
+    <CheckBox android:id="@+id/requirement_functionnal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="@dimen/task_start_margin"
+        android:text="Type" />
+
+    <Spinner
+        android:id="@+id/spinnerType"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" />
+
+    <Button android:id="@+id/button_project_cancel"
+        android:text="@string/button_cancel"
+        android:layout_marginTop="@dimen/task_top_margin"
+        android:padding="@dimen/task_padding"/>
+    <Button android:id="@+id/button_project_add"
+        android:text="@string/button_add"
+        android:layout_marginTop="@dimen/task_top_margin"
+        android:padding="@dimen/task_padding"/>
+</GridLayout>
